@@ -1,0 +1,38 @@
+.no-deco{
+
+    color: black;
+    text-decoration-line: none;
+}
+
+.post-list {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    position: relative;
+}
+
+.module {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.module-title {
+    align-items: center;
+    left: auto;
+    font-size: 26px;
+}
+
+table,
+th,
+td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+tr :hover {
+    height: 50px;
+    text-decoration: none;
+}

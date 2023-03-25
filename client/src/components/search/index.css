@@ -1,0 +1,142 @@
+.wd-magnifier-nudge-up{
+    bottom: 8px;
+    left: 25px;
+}
+
+
+
+.search-bar {
+    height : 60px;
+    font-size: 28px !important;
+}
+
+.search-button {
+    height: 60px;
+}
+
+* helpers/align.css */ .align {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* layout/base.css */
+
+:root {
+    --htmlFontSize: 100%;
+
+    --bodyBackgroundColor: #383838;
+    --bodyFontFamily: 'Helvetica', 'Arial';
+    --bodyFontFamilyFallback: sans-serif;
+    --bodyFontSize: 0.875rem;
+    --bodyFontWeight: 400;
+    --bodyLineHeight: 1.5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+    height: 100%;
+}
+
+body {
+    background-color: var(--bodyBackgroundColor);
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-height: 100%;
+}
+
+.company-list {
+    background-color: #343434;
+    /* border-radius: 2px; */
+    /* box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656; */
+    color: #aaa;
+    margin-top: 15px;
+    list-style-type: none;
+}
+.btn-search {
+    background-color: #242424;
+    color: #aaa;
+    height:100%;
+    width: 100%;
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-detail {
+    /* background-color: transparent; */
+    border-color: gray !important;
+    border: 1px !important;
+    background-color: #242424 !important;
+    color: #aaa !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    width: 100%;
+    box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656 !important;
+}
+.loading {
+    margin: 18px;
+    font-size: 22px;
+}
+
+/* modules/form.css */
+
+::placeholder {
+    color: #aaa;
+}
+
+input {
+    background: none;
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+    font-size: 22px !important;
+}
+
+.form__field {
+    align-items:flex-start;
+    background-color: #343434;
+    border-radius: 0.125em;
+    box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656;
+    color: #aaa;
+    display: inline-flex;
+    width: 85%;
+}
+.btn-search-div {
+    height: 60px;
+    display: inline-flex;
+    width:15%;
+}
+
+.form--search input[type='search'] {
+    flex-grow: 1;
+    padding-bottom: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.75em;
+}
+
+.form--search input[type='submit'] {
+    background-image: url('https://cdn.rawgit.com/marcobiedermann/playground/master/ui/search/simple-search-bar/dist/assets/images/magnifier.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+    order: -1;
+    padding: 0.75em;
+    text-indent: -999px;
+    width: 3em;
+}

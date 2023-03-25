@@ -1,0 +1,14 @@
+[
+  {
+    "_id": 111,
+    "name": "IBM",
+    "category": "Technology, Consulting",
+    "location": "Cambridge,MA"
+  },
+  {
+    "_id": 222,
+    "name": "Salesforce",
+    "category": "Technology, CRM",
+    "location": "Cambridge,MA"
+  }
+]

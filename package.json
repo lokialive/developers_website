@@ -1,0 +1,30 @@
+{
+  "name": "developers_match",
+  "version": "1.0.0",
+  "description": "mern full stack project",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "sudo npm install --prefix client",
+    "client": "sudo npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Yifan Qiao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.1.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "prop-types": "^15.8.1",
+    "validator": "^10.2.0"
+  }
+}
